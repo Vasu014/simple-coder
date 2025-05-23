@@ -8,7 +8,7 @@ This document identifies security vulnerabilities, risks, and recommendations fo
 ### API Key Exposure (🔴 CRITICAL)
 **Issue**: API key stored in plaintext within source code
 ```rust
-api_key: "***REMOVED***".to_string(),
+api_key: "sk-ant-api03--[REDACTED_API_KEY]".to_string(),
 ```
 
 **Risk**: 
